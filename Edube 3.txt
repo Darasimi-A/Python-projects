@@ -1,0 +1,9 @@
+Plant=input("what plant do I like:")
+
+if Plant=="Spathiphyllum":
+    print("Yes - Spathiphyllum is the best ")
+elif Plant=="spathiphyllum":
+    print("No, I want a big Spathiphyllum!")
+    
+else:
+    print("Spathiphyllum! Not",Plant,"!")

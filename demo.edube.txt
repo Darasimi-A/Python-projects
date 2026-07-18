@@ -1,0 +1,6 @@
+p=1
+q=2
+if not (p and q) == (not p) or (not q):
+    print(True)
+if not (p or q) == (not p) and (not q):
+    print(False)
