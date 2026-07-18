@@ -1,0 +1,13 @@
+dictionary = {"cat": "chat","mouse" : "Mickey", "dog": "chien", "horse": "cheval"}
+
+for key in dictionary.keys():
+    print(key, "->", dictionary[key])
+    
+print(" ")
+
+for key in sorted(dictionary.keys()):
+    print(key, "->", dictionary[key])
+print(" ")
+
+for key in dictionary.keys():
+    print(key, "->", dictionary[key])
